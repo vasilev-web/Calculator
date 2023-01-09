@@ -1,0 +1,19 @@
+.form-select {
+    cursor: pointer;
+
+    .calculator-form & {
+        height: 60px;
+        background-color: #f0eded;
+        border: none;
+        border-radius: 0;
+        border-bottom: $border-width solid $primary;
+        font-size: 18px;
+        font-weight: bold;
+        color: #1e272e;
+        font-family: $font-family-sans-serif;
+    }
+
+    &__wrapper {
+
+    }
+}
